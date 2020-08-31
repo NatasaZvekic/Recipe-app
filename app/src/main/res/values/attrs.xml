@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="decalredStyle">
+        <attr name="customBackgroundColor" format="color"/>
+        <attr name="customPrimaryTextColor" format="color"/>
+        <attr name="customCardBackgroundColor" format="color"/>
+        <attr name="customButtonBackgroundColor" format="color"/>
+        <attr name="customBackground" format="color"/>
+        <attr name="customSecondTextColor" format="color"/>
+        <attr name="customPrimaryDark" format="color"/>
+        <attr name="customHintBackground" format="color"/>
+    </declare-styleable>
+</resources>

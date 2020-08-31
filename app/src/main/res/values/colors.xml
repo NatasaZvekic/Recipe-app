@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E62E9</color>
+    <color name="colorPrimaryDark">#4B4B4B</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="colorPrimaryNight">#1E62E9</color>
+    <color name="colorPrimaryDarkNight">#787A7A</color>
+    <color name="colorAccentNight">#0C0C0C</color>
+
+    <color name="primaryTextNight">#050505</color>
+    <color name="primaryText">#FCFBFB</color>
+
+    <color name="cardBackground">#000000</color>
+    <color name="cardBackgroundNight">#EEEEEE</color>
+
+    <color name="buttonBackgroundNight">#00BCD4</color>
+    <color name="buttonBackground">#3F51B5</color>
+
+    <color name="background">#EEEEEE</color>
+    <color name="backgroundNight">#000000</color>
+
+    <color name="secondTextColorNight">#EEEEEE</color>
+    <color name="secondTextColor">#000000</color>
+
+    <color name="hintBackground">#4B4B4B</color>
+    <color name="hintBackgroundNight">#787A7A</color>
+
+</resources>

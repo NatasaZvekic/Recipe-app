@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/customBackground">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="?attr/customSecondTextColor"
+        android:hint="Enter recipe title"
+        android:id="@+id/titleEditText"
+        android:backgroundTint="?attr/customSecondTextColor"
+        android:textColorHint="?attr/customHintBackground"/>
+
+    <EditText
+        android:layout_below="@id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Enter recipe description"
+        android:textColor="?attr/customSecondTextColor"
+        android:textColorHint="?attr/customHintBackground"
+        android:backgroundTint="?attr/customSecondTextColor"
+        android:id="@+id/desdEditText"/>
+
+    <ImageView
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/desdEditText"/>
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:id="@+id/choose"
+        android:text="Choose a photo"
+        android:textAllCaps="false"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary"
+        android:layout_below="@id/imageView"
+        />
+
+
+    <Button
+        android:layout_centerInParent="true"
+        android:layout_below="@id/choose"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/saveBtn"
+        android:background="@drawable/corner2"
+        android:textSize="20dp"
+        android:text="Save"/>
+
+</RelativeLayout>
